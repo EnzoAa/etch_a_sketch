@@ -1,0 +1,27 @@
+#background {
+  background-image: url(images/background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #d4acce;
+}
+#grid {
+  display: grid;
+  width: 700px;
+  height: 700px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+}
+#btn {
+  margin: 15px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 700px;
+}
+div > button {
+  padding: 5px 20px 5px 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
